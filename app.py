@@ -6,7 +6,7 @@ import streamlit as st
 from sklearn.preprocessing import StandardScaler
 
 
-kmeans = pickle.load(open('C:/Users/anvesh/Desktop/customer_segmentation/kmeansmodel.pkl', 'rb'))
+kmeans = pickle.load(open('kmeansmodel.pkl', 'rb'))
 
 
 
